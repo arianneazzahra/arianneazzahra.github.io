@@ -150,6 +150,28 @@ body.modal-active {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+/* Media query untuk tampilan mobile */
+@media (max-width: 768px) {
+  #modal-container .modal-background .modal {
+    top: 10%;
+    left: 5%;
+    width: 90vw;
+  }
+
+  #modal-container .modal-background .modal h2 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #modal-container .modal-background .modal p {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 
 /*

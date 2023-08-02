@@ -238,7 +238,7 @@ add(FLAME_TL(), 'FLAME_ON').
 add(LIGHTS_OUT(), 'LIGHTS_OUT');
 
 const REDIRECT_TO_BIRTHDAY_CARD = () => {
-  window.location.href = 'gift/index.html';
+  window.location.href = 'gallery/index.html';
 };
 
 SOUNDS.TUNE.onended = SOUNDS.MATCH.onended = () => MASTER_TL.play();
